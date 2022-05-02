@@ -3,7 +3,8 @@
 белый цвет #FFFFFF
 цвет лого #000000
 Акцент  #2196F3
- цвет контактов rgba(255, 255, 255, 0.6)*/
+ цвет контактов rgba(255, 255, 255, 0.6)
+ фон цвета фильтра #F5F4FA*/
 
  :root {
     --primary-text-color: #212121;
@@ -11,6 +12,7 @@
     --color-white-text: #FFFFFF;
     --logo-color: #000000;
     --accent-color: #2196F3;
+    --font-color-filtr: #F5F4FA;
     --contact-in-footer: rgba(255, 255, 255, 0.6);
 }
 /* Главная старинца "Студия" */
@@ -55,8 +57,9 @@ body {
     color: var(--color-white-text);
 }
 
-.primery input {
+.primery button {
     color: var(--color-white-text);
+    background-color: var(--accent-color);
 }
 
 /* Особенности */
@@ -84,13 +87,15 @@ body {
 /* Стилизация Портфолио */
 /* Тело сайта */
 /* Фильтр */
-.filter input {
+.filter-menu {
     color: var(--primary-text-color);
+    background-color: var(--font-color-filtr);
 }
 
-.filter .filter-menu:hover,
-.filter .felter-menu:focus {
+.filter-menu:hover,
+.felter-menu:focus {
     color: var(--color-white-text);
+    background-color: var(--accent-color);
 }
 /* Список проэктов */
 .project-list .name-project {
