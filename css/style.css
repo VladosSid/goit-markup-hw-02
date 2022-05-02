@@ -18,6 +18,7 @@
 body {
     color: var(--primary-text-color);
 }
+/* Шапка сайта */
 /* Логотип */
 .logo {
     color: var(--logo-color);
@@ -78,4 +79,24 @@ body {
 /* Контакты в подвале */
 .contact-in-footer {
     color: var(--contact-in-footer);
+}
+
+/* Стилизация Портфолио */
+/* Тело сайта */
+/* Фильтр */
+.filter input {
+    color: var(--primary-text-color);
+}
+
+.filter .filter-menu:hover,
+.filter .felter-menu:focus {
+    color: var(--color-white-text);
+}
+/* Список проэктов */
+.project-list .name-project {
+    color: var(--primary-text-color);
+}
+
+.project-list .product {
+    color: var(--secondary-text-color);
 }
