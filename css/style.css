@@ -47,4 +47,17 @@ body {
 .contacts .contacts-company:focus {
     color: var(--accent-color);
 }
+/* Тело главной страницы */
+/* Превью с заголовком */
+.primery .primery-text {
+    color: var(--color-white-text);
+}
 
+.primery input {
+    color: var(--color-white-text);
+}
+
+/* Особенности */
+.feature .feature-text {
+    color: var(--secondary-text-color);
+}
