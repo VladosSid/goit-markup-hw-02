@@ -11,6 +11,7 @@
     --color-white-text: #FFFFFF;
     --logo-color: #000000;
     --accent-color: #2196F3;
+    --contact-in-footer: rgba(255, 255, 255, 0.6);
 }
 /* Главная старинца "Студия" */
 /* Тело сайта */
@@ -60,4 +61,21 @@ body {
 /* Особенности */
 .feature .feature-text {
     color: var(--secondary-text-color);
+}
+
+/* Предоставляемые услуги */
+
+
+/* Наша команда */
+.team .profesion {
+    color: var(--secondary-text-color);
+}
+
+/* Адрес */
+.locatyon {
+    color: var(--color-white-text);
+}
+/* Контакты в подвале */
+.contact-in-footer {
+    color: var(--contact-in-footer);
 }
