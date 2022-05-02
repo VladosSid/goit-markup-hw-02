@@ -4,11 +4,47 @@
 цвет лого #000000
 Акцент  #2196F3
  цвет контактов rgba(255, 255, 255, 0.6)*/
-:root {
-    --primary-text-color: var(#212121)
-    --title-text-color: var()
+
+ :root {
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --color-white-text: #FFFFFF;
+    --logo-color: #000000;
+    --accent-color: #2196F3;
+}
+/* Главная старинца "Студия" */
+/* Тело сайта */
+body {
+    color: var(--primary-text-color);
+}
+/* Логотип */
+.logo {
+    color: var(--logo-color);
 }
 
-body {
-    color: #212121;
+.logo span {
+    color: var(--accent-color);
 }
+/* Меню */
+.menu .link {
+    color: var(--primary-text-color);
+}
+
+.menu .link:hover,
+.menu .link:focus {
+    color: var(--accent-color);
+} 
+
+.menu .link.carrent {
+    color: var(--accent-color);
+}
+/* Контакты */
+.contacts a {
+    color: var(--secondary-text-color);
+}
+
+.contacts .contacts-company:hover,
+.contacts .contacts-company:focus {
+    color: var(--accent-color);
+}
+
