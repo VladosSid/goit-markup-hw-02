@@ -86,7 +86,6 @@ h2 {
     color: var(--color-white-text);
     /* Фон временный, что было видно текст */
     background-color: black;
-    ;
 
     font-weight: 900;
     font-size: 44px;
@@ -96,9 +95,18 @@ h2 {
     text-transform: uppercase;
 }
 
-.primery button {
+.primery .order-service {
     color: var(--color-white-text);
-    background-color: var(--accent-color);
+    background-color: var(--accent-color);    
+    
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    
     cursor: pointer;
 }
 
@@ -112,9 +120,10 @@ h2 {
 
 .feature .feature-text {
     color: var(--secondary-text-color); 
+    
     font-weight: 400;
     font-size: 14px;
-    line-height: 1.7px;    
+    line-height: 1.7;    
 }
 
 /* Предоставляемые услуги */
@@ -129,6 +138,7 @@ h2 {
 }
 .team .profesion {
     color: var(--secondary-text-color);
+    
     font-weight: 400;
     font-size: 16px;
     line-height: 1.2;
@@ -153,9 +163,15 @@ footer {
 /* Стилизация Портфолио */
 /* Тело сайта */
 /* Фильтр */
-.filter-menu {
+.filter {
     color: var(--primary-text-color);
     background-color: var(--font-color-filtr);
+    
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+
     cursor: pointer;
 }
 
@@ -163,12 +179,22 @@ footer {
 .felter-menu:focus {
     color: var(--color-white-text);
     background-color: var(--accent-color);
+
 }
 /* Список проэктов */
 .project-list .name-project {
     color: var(--primary-text-color);
+    
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
 }
 
 .project-list .product {
     color: var(--secondary-text-color);
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9px;
 }
