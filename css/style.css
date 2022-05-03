@@ -24,6 +24,12 @@ body {
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.03em;
 }
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+}
 /* Шапка сайта */
 /* Логотип */
 .logo {
@@ -35,6 +41,10 @@ body {
     line-height: 1.1;
 }
 
+.logo.color-f {
+    color: var(--color-white-text);
+}
+
 .logo span {
     color: var(--accent-color);    
 }
@@ -43,7 +53,7 @@ body {
 .contacts {
     font-weight: 500;
     font-size: 14px;
-    /* line-height: 1.1px; */
+    line-height: 1.1;
     letter-spacing: 0.02em;
 }
 
@@ -93,19 +103,44 @@ body {
 }
 
 /* Особенности */
+.feature-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    text-transform: uppercase;
+}
+
 .feature .feature-text {
-    color: var(--secondary-text-color);
+    color: var(--secondary-text-color); 
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7px;    
 }
 
 /* Предоставляемые услуги */
 
 
 /* Наша команда */
+.team .team-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+}
 .team .profesion {
     color: var(--secondary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
 }
 
-/* Адрес */
+/* Футер */
+/* Фон временный, что было видно текст */
+footer {
+    background-color: black;
+}
+
 .locatyon {
     color: var(--color-white-text);
 }
@@ -113,6 +148,7 @@ body {
 .contact-in-footer {
     color: var(--contact-in-footer);
 }
+
 
 /* Стилизация Портфолио */
 /* Тело сайта */
