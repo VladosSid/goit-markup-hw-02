@@ -1,2 +1,2 @@
-# goit-markup-hw-01
-Модуль 1 - Занятие 1 - HTML + CSS
+# goit-markup-hw-02
+Модуль 2 - HTML + CSS
