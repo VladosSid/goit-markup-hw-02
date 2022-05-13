@@ -179,6 +179,10 @@ h2 {
 }
 
 /* Футер */
+.footer-box {
+  background: #2f303a;
+}
+
 .locatyon {
   font-style: normal;
   font-size: 14px;
@@ -201,9 +205,6 @@ h2 {
 /* Тело сайта */
 /* Фильтр */
 .filter {
-  color: var(--primary-text-color);
-  background-color: var(--font-color-filtr);
-
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
@@ -212,6 +213,25 @@ h2 {
   cursor: pointer;
 }
 
+.filter-button .filter-menu {
+  padding: 6px 22px;
+
+  background: var(--font-color-filter);
+
+  border-radius: 4px;
+}
+
+.filter-button .filter-menu:hover,
+.filter-button .filter-menu:focus {
+  color: var(--color-white-text);
+  background-color: var(--accent-color);
+
+  cursor: pointer;
+}
+
+.filter .filter-button:not(:last-child) {
+  margin-right: 8px;
+}
 /* Список проэктов */
 .project-linck {
   text-decoration: none;
