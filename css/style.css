@@ -216,8 +216,7 @@ h2 {
 .filter-button .filter-menu {
   padding: 6px 22px;
 
-  background: var(--font-color-filter);
-
+  background-color: var(--font-color-filtr);
   border-radius: 4px;
 }
 
