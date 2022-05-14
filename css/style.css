@@ -213,6 +213,10 @@ h2 {
   cursor: pointer;
 }
 
+.filter-menu {
+  border: none;
+}
+
 .filter-button .filter-menu:hover,
 .filter-button .filter-menu:focus {
   color: var(--color-white-text);
