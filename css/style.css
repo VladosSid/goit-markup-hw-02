@@ -213,13 +213,6 @@ h2 {
   cursor: pointer;
 }
 
-.filter-button .filter-menu {
-  padding: 6px 22px;
-
-  background-color: var(--font-color-filtr);
-  border-radius: 4px;
-}
-
 .filter-button .filter-menu:hover,
 .filter-button .filter-menu:focus {
   color: var(--color-white-text);
